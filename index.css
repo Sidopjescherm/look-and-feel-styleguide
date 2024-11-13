@@ -1,31 +1,5 @@
 /* Generieke stijlen, waarschijnlijk hoeven jullie deze niet aan te passen */
 
-
-body {
-  /*colors*/
-    --white: hsl(0, 100, 100);
-    --beige: hsl(43, 82, 87);
-    --light-orange: hsl(36, 94, 74);
-    --orange: hsl(22, 89, 54);
-    --green: hsl(104, 27, 35);
-    --brown: hsl(22, 100, 19);
-    
-  /*font*/
-    --font-text: "Poppins", sans-serif;
-
-    --font-size-small: 1rem;
-    --font-size-medium: 1.2rem;
-    --font-size-large: 4,5rem;
-    --font-size-X-large: 7rem;
-
-  /*forms and more*/
-    --card: 1em;
-    --big-card: 2em;
-    --round: 100%;
-    --shadow: 0.125em;
-
-}
-
 @layer styleguide {
   html, body {
     scroll-behavior: smooth;
@@ -34,7 +8,6 @@ body {
   body {
     max-width: 40em;
     margin: auto;
-    background: var(--beige);
   }
 
   nav:not([class]),
@@ -54,6 +27,7 @@ body {
     padding: .5em;
     border: 1px solid;
     color: inherit;
+    box-shadow: var(--shadow);
     text-decoration: none;
     &:hover, &:focus {
       text-decoration: underline;

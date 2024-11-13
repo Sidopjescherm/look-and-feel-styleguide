@@ -1,0 +1,31 @@
+body {
+    /*colors*/
+      --white: hsl(0, 100, 100);
+      --beige: hsl(43, 82, 87);
+      --light-orange: hsl(36, 94, 74);
+      --orange: hsl(22, 89, 54);
+      --green: hsl(104, 27, 35);
+      --brown: hsl(22, 100, 19);
+      
+    /*font*/
+      --font-text: "Poppins", sans-serif;
+  
+      --font-size-small: 1rem;
+      --font-size-medium: 1.2rem;
+      --font-size-large: 4,5rem;
+      --font-size-X-large: 7rem;
+  
+    /*forms and more*/
+      --radius-card: 1em;
+      --radius-big-card: 2em;
+      --radius-round: 100%;
+      --shadow: hsl(240, 5%, 41%, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .beige {
+    background-color: var(--beige);
+  }
+
+  .orange {
+    background-color: var(--orange);
+  }
