@@ -20,7 +20,7 @@ In de code hebben we dat in de body als volgende toegepast:
 ***
 ### Typography
 We houden 1 lettertype aan in de gehele website om de rust te bewaren, we hebben wel een backup lettertype voor als de eerste niet wilt werken in alle browsers.
-Daarnaast hebben we 4 opties voor de groote van een tekst. Omdat we het hier belangrijk vonden dat het duidelijk is waar het over gaat hebben we de Custom Properties namen zo omschrijvend mogenlijk gemaakt.
+Daarnaast hebben we 4 opties voor de grootte van een tekst. Omdat we het hier belangrijk vonden dat het duidelijk is waar het over gaat, hebben we de Custom Properties namen zo omschrijvend mogenlijk gemaakt.
       
     /*font*/
       --font-text: "Poppins", sans-serif;
