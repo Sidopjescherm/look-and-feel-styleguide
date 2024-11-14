@@ -5,7 +5,7 @@ Hier is onze styleguide uit figma.
 ### Colors
 Wij hebben 6 kleuren vastgesteld als huisstijlkleuren. Deze komen het meest voor in de website. Aangezien alleen de kleurnaam al veel zegt over wat voor Custom Properties het zijn vonden we het duidelijk genoeg om alleen de naam van de kleur te gebruiken in plaats van bijvoorbeeld, `--main-color-white: ...`.
 
-In de code hebben we dat als volgende toegepast:
+In de code hebben we dat in de body als volgende toegepast:
 
     /*colors*/
       --white: #fff;
