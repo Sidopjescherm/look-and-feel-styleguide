@@ -7,13 +7,27 @@ Wij hebben 6 kleuren vastgesteld als huisstijlkleuren. Deze komen het meest voor
 
 In de code hebben we dat in de body als volgende toegepast:
 
-    /*colors*/
-      --white: #fff;
-      --beige: #F9EAC3;
-      --light-orange: #FBC97E;
-      --orange: #F26E21;
-      --green: #4E7141;
-      --brown: #5F2300;
+    /* background color */
+      --background-color: #fff;
+
+
+    /* section colors */
+      --section-color-1: #fff;
+      --section-color-2: #F9EAC3;
+      --section-color-3: #FBC97E;
+      --section-color-4: #F26E21;
+      --section-color-5: #4E7141;
+      --section-color-6: #5F2300;
+      --section-color-7: #000;
+
+
+    /* text colors */
+      --text-color-1: #fff;
+      --text-color-2: #F9EAC3;
+      --text-color-3: #F26E21;
+      --text-color-4: #4E7141;
+      --text-color-5: #5F2300;
+      --text-color-6: #000;
 
 ![image](https://github.com/user-attachments/assets/c9c5d877-4306-4237-b90a-61cd3aaf2f42)
 
