@@ -39,33 +39,38 @@ body {
       --radius-round: 100%;
       --shadow: hsl(240, 5%, 41%, 0.2) 0px 0px 29px 0px;
       --dark-shadow: black 0px 0px 10px 0px;
+
+    /* button styling */
+      --button-height: 3em;
+      --button-width: 6em;
+      --button-opacity: 80%;
 }
 
 
 
 /*color cirkles*/
   .white {
-    background-color: var(--white);
+    background-color: var(--section-color-1);
   }
   
   .beige {
-    background-color: var(--beige);
+    background-color: var(--section-color-2);
   }
 
   .light-orange {
-    background-color: var(--light-orange);
+    background-color: var(--section-color-3);
   }
 
   .orange {
-    background-color: var(--orange);
+    background-color: var(--section-color-4);
   }
 
   .green {
-    background-color: var(--green);
+    background-color: var(--section-color-5);
   }
 
   .brown {
-    background-color: var(--brown);
+    background-color: var(--section-color-6);
   }
 
 
@@ -114,12 +119,12 @@ body {
 
   .input1{
     border-radius: var(--radius-card);
-    border-color: var(--green);
-    outline-color: var(--green);
+    border-color: var(--section-color-5);
+    outline-color: var(--section-color-5);
   }
 
   .input1:hover{
-    background-color: var(--beige);
+    background-color: var(--section-color-2);
   }
 
   .input1 {
@@ -127,75 +132,75 @@ body {
   }
 
   fieldset{
-    color: var(--green);
-    accent-color: var(--green);
+    color: var(--section-color-5);
+    accent-color: var(--section-color-5);
   }
 
   .searchbar{
     border-radius: var(--radius-card);
-    border-color: var(--green);
-    outline-color: var(--green);
+    border-color: var(--section-color-5);
+    outline-color: var(--section-color-5);
   }
 
   .searchbar:hover{
-    background-color: var(--beige);
+    background-color: var(--section-color-2);
   }
 
   .tel{
     border-radius: var(--radius-card);
-    border-color: var(--green);
-    outline-color: var(--green);
+    border-color: var(--section-color-5);
+    outline-color: var(--section-color-5);
   }
 
   .tel:hover{
-    background-color: var(--beige);
+    background-color: var(--section-color-2);
   }
 
   .label2 {
       border-radius: var(--radius-big-card);
       font: var(--font-text-bold);
-      color: var(--green);
+      color: var(--section-color-5);
   }
 
   .button-green{
-    background-color: var(--green);
-    color: var(--beige);
+    background-color: var(--section-color-5);
+    color: var(--section-color-2);
     border-radius: var(--radius-card);
     border: none;
-    height: 3em;
-    width: 6em;
+    height: var(--button-height);
+    width: var(--button-width);
     margin-top: 5em;
   }
 
   .button-brown{
-    background-color: var(--brown);
-    color: var(--orange);
+    background-color: var(--section-color-6);
+    color: var(--section-color-4);
     border-radius: var(--radius-card);
     border: none;
-    height: 3em;
-    width: 6em;
+    height: var(--button-height);
+    width: var(--button-width);
   }
 
   .button-beige{
-    background-color: var(--beige);
-    color: var(--green);
+    background-color: var(--section-color-2);
+    color: var(--section-color-5);
     border-radius: var(--radius-card);
     border: none;
-    height: 3em;
-    width: 6em;
+    height: var(--button-height);
+    width: var(--button-width);
   }
 
   .button-green:hover{
-    opacity: 80%;
+    opacity: var(--button-opacity);
     box-shadow: var(--dark-shadow);
   }
 
   .button-brown:hover{
-    opacity: 80%;
+    opacity: var(--button-opacity);
     box-shadow: var(--dark-shadow);
   }
 
   .button-beige:hover{
-    opacity: 80%;
+    opacity: var(--button-opacity);
     box-shadow: var(--dark-shadow);
   }
