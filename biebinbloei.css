@@ -42,154 +42,160 @@ body {
 }
 
 
-.white {
-  background-color: var(--white);
-}
+
+/*color cirkles*/
+  .white {
+    background-color: var(--white);
+  }
   
-.beige {
-  background-color: var(--beige);
-}
+  .beige {
+    background-color: var(--beige);
+  }
 
-.light-orange {
-  background-color: var(--light-orange);
-}
+  .light-orange {
+    background-color: var(--light-orange);
+  }
 
-.orange {
-  background-color: var(--orange);
-}
+  .orange {
+    background-color: var(--orange);
+  }
 
-.green {
-  background-color: var(--green);
-}
+  .green {
+    background-color: var(--green);
+  }
 
-.brown {
-  background-color: var(--brown);
-}
-  
-    /*font*/
+  .brown {
+    background-color: var(--brown);
+  }
 
-#typografie {
-  font-family: var(--font-text);
-}
 
-.h1 {
-  font-size: var(--font-size-X-large);
-}
 
-.h2 {
-  font-size: var(--font-size-large)
-}
+/*font*/
+    #typografie {
+      font-family: var(--font-text);
+    }
 
-.h3 {
-  font-size: var(--font-size-medium);
-}
+    .h1 {
+      font-size: var(--font-size-X-large);
+    }
 
-.paragraph {
-  font-size: var(--font-size-small);
-}
+    .h2 {
+      font-size: var(--font-size-large)
+    }
 
-.ol {
-  font-size: var(--font-size-small);
-}
-  
-.ul {
-  font-size: var(--font-size-small);
-}
+    .h3 {
+      font-size: var(--font-size-medium);
+    }
 
-.table {
-  font-size: var(--font-size-small);
-}
+    .paragraph {
+      font-size: var(--font-size-small);
+    }
 
-#formulieren{
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 5em;
-}
 
-.input1{
-  border-radius: var(--radius-card);
-  border-color: var(--green);
-  outline-color: var(--green);
-}
 
-.input1:hover{
-  background-color: var(--beige);
-}
+/*forms & elements*/
+  .ol {
+    font-size: var(--font-size-small);
+  }
+    
+  .ul {
+    font-size: var(--font-size-small);
+  }
 
-.input1 {
-  border-radius: var(--radius-card);
-}
+  .table {
+    font-size: var(--font-size-small);
+  }
 
-fieldset{
-  color: var(--green);
-  accent-color: var(--green);
-}
+  #formulieren{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5em;
+  }
 
-.searchbar{
-  border-radius: var(--radius-card);
-  border-color: var(--green);
-  outline-color: var(--green);
-}
+  .input1{
+    border-radius: var(--radius-card);
+    border-color: var(--green);
+    outline-color: var(--green);
+  }
 
-.searchbar:hover{
-  background-color: var(--beige);
-}
+  .input1:hover{
+    background-color: var(--beige);
+  }
 
-.tel{
-  border-radius: var(--radius-card);
-  border-color: var(--green);
-  outline-color: var(--green);
-}
+  .input1 {
+    border-radius: var(--radius-card);
+  }
 
-.tel:hover{
-  background-color: var(--beige);
-}
-
-.label2 {
-    border-radius: var(--radius-big-card);
-    font: var(--font-text-bold);
+  fieldset{
     color: var(--green);
-}
+    accent-color: var(--green);
+  }
 
-.button-green{
-  background-color: var(--green);
-  color: var(--beige);
-  border-radius: var(--radius-card);
-  border: none;
-  height: 3em;
-  width: 6em;
-  margin-top: 5em;
-}
+  .searchbar{
+    border-radius: var(--radius-card);
+    border-color: var(--green);
+    outline-color: var(--green);
+  }
 
-.button-brown{
-  background-color: var(--brown);
-  color: var(--orange);
-  border-radius: var(--radius-card);
-  border: none;
-  height: 3em;
-  width: 6em;
-}
+  .searchbar:hover{
+    background-color: var(--beige);
+  }
 
-.button-beige{
-  background-color: var(--beige);
-  color: var(--green);
-  border-radius: var(--radius-card);
-  border: none;
-  height: 3em;
-  width: 6em;
-}
+  .tel{
+    border-radius: var(--radius-card);
+    border-color: var(--green);
+    outline-color: var(--green);
+  }
 
-.button-green:hover{
-  opacity: 80%;
-  box-shadow: var(--dark-shadow);
-}
+  .tel:hover{
+    background-color: var(--beige);
+  }
 
-.button-brown:hover{
-  opacity: 80%;
-  box-shadow: var(--dark-shadow);
-}
+  .label2 {
+      border-radius: var(--radius-big-card);
+      font: var(--font-text-bold);
+      color: var(--green);
+  }
 
-.button-beige:hover{
-  opacity: 80%;
-  box-shadow: var(--dark-shadow);
-}
+  .button-green{
+    background-color: var(--green);
+    color: var(--beige);
+    border-radius: var(--radius-card);
+    border: none;
+    height: 3em;
+    width: 6em;
+    margin-top: 5em;
+  }
+
+  .button-brown{
+    background-color: var(--brown);
+    color: var(--orange);
+    border-radius: var(--radius-card);
+    border: none;
+    height: 3em;
+    width: 6em;
+  }
+
+  .button-beige{
+    background-color: var(--beige);
+    color: var(--green);
+    border-radius: var(--radius-card);
+    border: none;
+    height: 3em;
+    width: 6em;
+  }
+
+  .button-green:hover{
+    opacity: 80%;
+    box-shadow: var(--dark-shadow);
+  }
+
+  .button-brown:hover{
+    opacity: 80%;
+    box-shadow: var(--dark-shadow);
+  }
+
+  .button-beige:hover{
+    opacity: 80%;
+    box-shadow: var(--dark-shadow);
+  }
