@@ -3,7 +3,7 @@
 Hier is onze styleguide uit figma.
 
 ### Colors
-Wij hebben 6 kleuren vastgesteld als huisstijlkleuren. Deze komen het meest voor in de website. Aangezien alleen de kleurnaam al veel zegt over wat voor Custom Properties het zijn vonden we het duidelijk genoeg om alleen de naam van de kleur te gebruiken in plaats van bijvoorbeeld, `--main-color-white: ...`.
+Wij hebben 6 kleuren vastgesteld als huisstijlkleuren. Deze komen het meest voor in de website. Aangezien alleen de kleurnaam al veel zegt over wat voor Custom Properties het zijn vonden we het duidelijk genoeg om alleen de naam van de kleur te gebruiken in plaats van bijvoorbeeld, `--main-color-white: ...`. De achtergrond van de website wordt wit en de elementen worden afgewisseld met verschillende kleuren van de kleurenschema.
 
 In de code hebben we dat in de body als volgende toegepast:
 
@@ -20,7 +20,12 @@ In de code hebben we dat in de body als volgende toegepast:
 ***
 ### Typography
 We houden 1 lettertype aan in de gehele website om de rust te bewaren, we hebben wel een backup lettertype voor als de eerste niet wilt werken in alle browsers.
-Daarnaast hebben we 4 opties voor de grootte van een tekst. Omdat we het hier belangrijk vonden dat het duidelijk is waar het over gaat, hebben we de Custom Properties namen zo omschrijvend mogenlijk gemaakt.
+Daarnaast hebben we 4 opties voor de grootte van een tekst. Omdat we het hier belangrijk vonden dat het duidelijk is waar het over gaat, hebben we de Custom Properties namen zo omschrijvend mogenlijk gemaakt. 
+
+Small: paragraph/<a>/links
+medium: h3
+large: h2
+x-large: h1
       
     /*font*/
       --font-text: "Poppins", sans-serif;
@@ -35,7 +40,7 @@ Daarnaast hebben we 4 opties voor de grootte van een tekst. Omdat we het hier be
 
 ***
 ### Forms 
-Onder het kopje Forms kan je zien hoe we de afgeronde hoekjes kunnen toepassen in de code. Om het overzicht te behouden hebben we gelijk in de vormen gezet welke Custom Properties welke vormen aanspreken.
+Onder het kopje Forms kan je zien hoe we de afgeronde hoekjes kunnen toepassen in de code. Om het overzicht te behouden hebben we gelijk in de vormen gezet welke Custom Properties welke vormen aanspreken. De radius-card wordt toegepast op de knoppen van de website en de radius-big-card wordt toegepast op de objecten. De shadow wordt toegepast op de buttons.
 
     /*forms and more*/
       --radius-card: 1em;
