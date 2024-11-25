@@ -2,6 +2,7 @@ body {
 
   /* background color */
       --background-color: #fff;
+      --dark-background-color: rgb(219, 202, 159);
 
 
     /* section colors */
@@ -171,9 +172,6 @@ body {
     color: var(--section-color-2);
     border-radius: var(--radius-card);
     border: none;
-    height: var(--button-height);
-    width: var(--button-width);
-    margin-top: 5em;
   }
 
   .button-brown{
@@ -181,8 +179,6 @@ body {
     color: var(--section-color-4);
     border-radius: var(--radius-card);
     border: none;
-    height: var(--button-height);
-    width: var(--button-width);
   }
 
   .button-beige{
@@ -190,23 +186,18 @@ body {
     color: var(--section-color-5);
     border-radius: var(--radius-card);
     border: none;
-    height: var(--button-height);
-    width: var(--button-width);
   }
 
   .button-green:hover{
     opacity: var(--button-opacity);
-    box-shadow: var(--dark-shadow);
   }
 
   .button-brown:hover{
     opacity: var(--button-opacity);
-    box-shadow: var(--dark-shadow);
   }
 
   .button-beige:hover{
     opacity: var(--button-opacity);
-    box-shadow: var(--dark-shadow);
   }
 
   input:invalid{
