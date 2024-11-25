@@ -10,7 +10,7 @@ body {
       --section-color-2: #F9EAC3;
       --section-color-3: #FBC97E;
       --section-color-4: #F26E21;
-      --section-color-5: #3c593e;
+      --section-color-5: #3C593E;
       --section-color-6: #5F2300;
       --section-color-7: #000;
 
@@ -19,13 +19,13 @@ body {
       --text-color-1: #fff;
       --text-color-2: #F9EAC3;
       --text-color-3: #F26E21;
-      --text-color-4: #3c593e;
+      --text-color-4: #3C593E;
       --text-color-5: #5F2300;
       --text-color-6: #000;
 
       /*input color*/
       --invalid-color: #FBC97E;
-      --valid-color: #3c593e;
+      --valid-color: #3C593E;
 
       
     /*font*/
