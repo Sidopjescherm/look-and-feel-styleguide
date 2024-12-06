@@ -87,14 +87,19 @@ body {
 
     .h1 {
       font-size: var(--font-size-X-large);
+      font-weight: var(--font-text-bold);
     }
 
     .h2 {
-      font-size: var(--font-size-large)
+      font-size: var(--font-size-large);
+      font-weight: var(--font-text-bold);
+
     }
 
     .h3 {
       font-size: var(--font-size-medium);
+      font-weight: var(--font-text-bold);
+
     }
 
     .paragraph {
